@@ -3,7 +3,7 @@ import Child1 from './Child1';
 import Child2 from './Child2';
 
 const Parent = () => {
-    const [select,setSelected] =  useState(false);
+    const [select,setSelected] =  useState('');
 
     const handleClick = (option) => {
         setSelected(option);
